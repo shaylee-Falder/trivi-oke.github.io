@@ -1,0 +1,258 @@
+@charset "UTF-8";
+@import url("../webfonts/Barlow_Regular/stylesheet.css");
+/* CSS Document */
+
+header {
+	width: 100%;
+	top: 0;
+	padding: 3em;
+	postion: fixed;
+}
+header {
+	z-index: 973;
+}
+body{
+	background-color: #452870 !important;
+}
+.site-nav {
+	position: relative;
+	float: left;
+	z-index: 400;
+	top: 4;
+	left: 5;
+	display: block !important;
+	width: 100%;
+	padding: .90em 4em 0 0;
+	opacity: .95;
+	background: #96B6E0;
+}
+.site-nav ul {
+	list-style-type: none;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	text-align: left;
+}
+.site-nav ul li {
+	display: inline-block;
+	margin-bottom: -2px;
+	margin-left: 1.5em;
+	margin-top: -3px;
+}
+.site-nav ul li a {
+	font-size: 2em;
+	padding-bottom: 0.5em;
+	padding-top: .5em;
+	text-decoration: none;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+	color: #000;
+}
+.hero {
+	position: relative;
+	width: 100%;
+	height: auto;
+	color: #452870;
+	background:#452870;
+}
+
+footer {
+	margin-top: -0.5em;
+	padding-top: 10em;
+	background-color: #96B6E0;
+	margin-left: -24px;
+	margin-bottom: 7px;
+}
+.footer-content {
+	width: 108%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: -35px;
+	margin-bottom: -3px;
+	padding-bottom: 0em;
+	padding-left: 450px;
+	padding-top: 0px;
+}
+.footer-social {
+	display: block;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+.footer-social li {
+	display: inline-block;
+	margin: 0 1.2em;
+}
+.footer-social li a {
+	line-height: 3.5em;
+	display: inline-block;
+	width: 4em;
+	height: 4em;
+	text-align: center;
+	background-color: #9A3D8D;
+	border: 2px solid rgba(255,255,255,.3);
+	border-radius: 50%;
+}
+.footer-social li a:hover {
+	border-color: #fff;
+	background: #fff;
+}
+.footer-social li a img {
+	width: auto;
+	height: 1em;
+}
+.footer-social li a:hover .social-default img-rounded{
+	display:center;
+}
+.footer-social li a:hover .social-hover {
+	display: none;
+}
+.footer-info {
+	padding-top: 5em;
+	padding-left: 0px;
+}
+.footer-info p{
+	color: #000000;
+	font-size: 1em;
+	line-height: 1.55;
+	max-width: 33em;
+	margin-bottom: 1.7em;
+	margin-top: -68px;
+	margin-left: 126px;
+	margin-right: 10px;
+}
+.footer-info {
+	clear: both;
+}
+.footer-legal {
+	opacity: .8;
+}
+.footer-credit a:hover {
+	text-decoration: none;
+}
+h1 {
+	color: #FFFFFF !important;
+	background-color: #452870;
+	font-family: "Barlow Regular";
+	text-transform: uppercase;
+	font-size: 8.5em;
+	letter-spacing: 0.6em;
+	text-align: center;
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	height: auto;
+}
+h3 {
+	color: #FFFFFF !important;
+	background-color: #452870;
+	font-family: "Barlow Regular";
+	text-transform: uppercase;
+	font-size: 8.5em;
+	text-align: left;
+	padding-top: 10em;
+	padding-right: 0em;
+	padding-left: 0em;
+	padding-bottom: 0em;
+	position: relative;
+	margin-top: 14em;
+	margin-right: -5em;
+	margin-left: 3em;
+}
+h4{
+	color: #FFFFFF;
+	font-family: "Barlow Regular";
+	text-transform: uppercase;
+	font-size: 61px !important;
+	text-align: center;
+	margin-left: 5px;
+	font-weight: bold;
+	padding-bottom: 308px;
+	position: static;
+	letter-spacing: .15em;
+	padding-top: 291px;
+	padding-right: 306px;
+	padding-left: 304px;
+	width: 100%;
+	height: auto;
+}
+h6{
+	color: #FFFFFF;
+	font-family: "Barlow Regular";
+	text-transform: uppercase;
+	font-size: 61px !important;
+	text-align: center;
+	font-weight: bold;
+	position: static;
+	letter-spacing: .15em;
+	padding-right: 0em;
+	padding-bottom: 165px;
+}
+h5 {
+	color: #FFFFFF !important;
+	background-color: #452870;
+	font-family: "Barlow Regular";
+	text-transform: uppercase;
+	font-size: 8.5em;
+	text-align: left;
+	padding-top: 3em;
+	padding-right: 0em;
+	padding-left: 0em;
+	padding-bottom: 0em;
+	position: relative;
+	margin-top: 14em;
+	margin-right: -5em;
+	margin-left: 3em;
+}
+.carousel-indicators{
+	align-content: center;
+	right: 8px;
+}
+artworks {
+	position: relative;
+	width: 100%;
+	overflow:hidden;
+	height: auto;
+}
+.artwork {
+	display: flex;
+}
+.artwork .artwork-piece {
+	padding-top: 6%;
+	padding-right: 0;
+	padding-left: 15%;
+	padding-bottom: 8%;
+	background-color: #452870;
+	width: 50%;
+}
+.artwork-piece figure {
+	position: relative;
+}
+.artwork-piece figure img {
+	position: relative;
+	z-index: 93;
+}
+.artwork .artwork-description {
+	background: #452870;
+	color: #fff;
+	width: 30%;
+	padding-top: 0em;
+	padding-right: 0em;
+	padding-left: 0em;
+	padding-bottom: 0em;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-left: 0em;
+	margin-bottom: 0em;
+}
+.artwork-text {
+	font-size: 1.1em;
+	line-height: 1.9;
+	opacity: .8;
+	max-width: 84em;
+}
+.carousel{
+	background: #452870;
+}
